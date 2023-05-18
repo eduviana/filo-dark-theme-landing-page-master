@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+
+    img{
+        width: 20%;
+        height: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .title{
+        font-family: var(--raleway);
+        font-weight: var(--raleway-bold);
+        font-size: 1.1rem;
+        // margin-top: 2rem;
+    }
+
+    .description{
+        text-align: center;
+        line-height: 1.5rem;
+        margin-top: .3rem;
+    }
+}
+
+@media (min-width:1440px) {
+    .card{
+       width: 546px;
+       height: 228px;
+        img{
+            width: 16%;
+            height: 36%;
+        }
+
+        .description{
+            width: 68%;
+        }
+    }
+}

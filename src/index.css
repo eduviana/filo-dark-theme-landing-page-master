@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  /* Primary */
+  /* intro and email sign up background */
+  --dark-blue-intro: hsl(217, 28%, 15%);
+
+  /* main background */
+  --dark-blue-main: hsl(218, 28%, 13%);
+
+  /* footer background */
+  --dark-blue-footer: hsl(216, 53%, 9%);
+
+  /* testimonials background */
+  --dark-blue-testimonials: hsl(219, 30%, 18%);
+
+  /* inside call-to-action gradient */
+  --cyan-accent: hsl(176, 68%, 64%);
+
+  /* inside call-to-action gradient */
+  --blue-accent: hsl(198, 60%, 50%);
+
+  /* error */
+  --light-red-accent: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+
+  /* FONTS */
+  --raleway: "Raleway", sans-serif;
+  --raleway-regular: 400;
+  --raleway-bold: 700;
+
+  --open-sans: "Open Sans", sans-serif;
+  --open-sans-regular: 400;
+  --open-sans-bold: 700;
+
+  --font-size: 14px;
+
+  --padding: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--open-sans);
+  font-weight: var(--open-sans-regular);
+  font-size: var(--font-size);
+  background-color: var(--dark-blue-main);
+  color: var(--white);
+}
+
+
+.bg-dark-blue{
+  background-color: var(--dark-blue-intro);
+}
+
+@media (min-width: 1440px) {
+  :root{
+    --padding: 4rem 6rem;
+  }
+}

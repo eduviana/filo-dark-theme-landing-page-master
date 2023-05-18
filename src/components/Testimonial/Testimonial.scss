@@ -1,0 +1,48 @@
+.testimonial {
+  background-color: var(--dark-blue-testimonials);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-radius: 0.3rem;
+
+  .quote {
+    text-align: left;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+
+  .person {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      width: 14%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .personInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+
+      .position {
+        font-size: 0.6rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .testimonial {
+    padding: 2.5rem 2rem;
+
+    .quote {
+      font-size: 0.9rem;
+    }
+  }
+}
